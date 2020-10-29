@@ -1,0 +1,79 @@
+.scrollbar
+{
+        overflow-y: scroll;
+        overflow-x: hidden;
+}
+#categ3::-webkit-scrollbar-track,#categ4::-webkit-scrollbar-track,
+#categ1::-webkit-scrollbar-track,#categ2::-webkit-scrollbar-track
+{
+    border: 7px solid rgb(49, 58, 66);
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+#categ3::-webkit-scrollbar,#categ4::-webkit-scrollbar,
+#categ1::-webkit-scrollbar,#categ2::-webkit-scrollbar
+{
+    width: 25px;
+}
+#categ4::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        180deg,
+        #e574bc,
+        #ea84c9,
+        #ef94d5,
+        #f9b4ed,
+        #eabaf6,
+        #dabfff,
+        #c4c7ff,
+        #adcfff,
+        #96d7ff,
+        #7fdeff
+    );
+    border-radius:3px;
+}
+#categ2::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(
+        180deg,
+        #03045E,
+        #023e8a,
+        #0077b6,
+        #0096c7,
+        #00b4d8,
+        #48cae4,
+        #90e0ef,
+        #ade8f4,
+        #CAF0F8
+    );
+    border-radius:3px;  
+}
+#categ1::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        180deg,
+        #7400b8,
+        #7400b8,
+        #5e60ce,
+        #5390d9,
+        #4ea8de,
+        #48bfe3,
+        #56cfe1,
+        #64dfdf,
+        #72efdd,
+        #80ffdb
+    );
+    border-radius:3px
+}
+#categ3::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        180deg,
+        #ffadad,
+        #ffd6a5,
+        #fdffb6,
+        #caffbf,
+        #9bf6ff,
+        #a0c4ff,
+        #bdb2ff,
+        #ffc6ff,
+        #fffffc
+    );
+    border-radius:3px;
+}
